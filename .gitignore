@@ -1,0 +1,17 @@
+# Ignorer l'environnement virtuel
+venv/
+
+# Ignorer les fichiers de configuration système/éditeur
+__pycache__/
+.vscode/
+
+# CRUCIAL : Ignorer les clés secrètes
+.env
+
+# Ignorer les données (on ne versionne pas les gros fichiers)
+input/
+output/
+*.zip
+*.csv
+*.png
+temp_extraction/
